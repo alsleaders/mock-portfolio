@@ -4,9 +4,57 @@
 
 html {
   height: 100%;
+  background-color: black;
+  color: whitesmoke;
 }
 
 body {
-  margin: 0;
+  margin: 5;
   min-height: 100%;
+}
+
+header {
+  background-image: url('./Images/space.png');
+}
+
+.profile-picture {
+  transform: rotate(0.25turn);
+  max-height: 100px;
+  margin: 5;
+}
+
+main {
+  margin: 5%;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-box {
+  background-color: whitesmoke;
+  border-radius: 2px;
+  color: black;
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+  max-width: 125px;
+  background-color: blue;
+  color: white;
+}
+
+li {
+  list-style: none;
 }
