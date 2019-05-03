@@ -151,6 +151,7 @@ main > img {
   position: relative;
   border-radius: 5%;
   padding: 0.5%;
+  margin: -14px;
 }
 
 /* Everything below here is fine ignore it */
