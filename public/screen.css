@@ -44,9 +44,10 @@ header {
   background: lightgray;
   color: slategray;
   text-align: center;
-  border-radius: 4em;
+  /* border-radius: 4em; */
   font-size: 16px;
   max-width: 400px;
+  margin: auto;
 }
 
 .speech-bubble:after {
@@ -64,9 +65,8 @@ header {
   margin-bottom: -20px;
 }
 .profile-picture {
-  transform: rotate(0.25turn);
-  max-height: 100px;
-  margin: 5%;
+  max-height: 256px;
+  margin: 8%;
 }
 
 main {
@@ -138,7 +138,7 @@ main > img {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 1rem;
+  margin: 1rem 1rem;
 }
 
 #keep-reading {
@@ -151,7 +151,7 @@ main > img {
   position: relative;
   border-radius: 5%;
   padding: 0.5%;
-  margin: -14px;
+  /* margin: -14px; */
 }
 
 /* Everything below here is fine ignore it */
