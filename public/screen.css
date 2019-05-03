@@ -38,6 +38,7 @@ header {
   margin: 0;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .speech-bubble {
@@ -50,7 +51,10 @@ header {
   max-width: 400px;
   margin: auto;
   padding: 0;
-  margin-left: 25rem;
+  /* margin-left: 25rem; */
+  position: absolute;
+  top: 4rem;
+  left: 10rem;
 }
 .speech-bubble > p {
   font-size: 10px;
