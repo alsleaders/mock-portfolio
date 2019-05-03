@@ -43,13 +43,18 @@ header {
 .speech-bubble {
   background: lightgray;
   color: slategray;
-  text-align: center;
+  text-align: left;
+  text-indent: 2rem;
   /* border-radius: 4em; */
   font-size: 16px;
   max-width: 400px;
   margin: auto;
+  padding: 0;
+  margin-left: 25rem;
 }
-
+.speech-bubble > p {
+  font-size: 10px;
+}
 .speech-bubble:after {
   content: '';
   position: relative;
