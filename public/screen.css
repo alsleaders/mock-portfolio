@@ -19,7 +19,7 @@ body {
   margin: auto;
   min-height: 100%;
   display: flex;
-  width: 90%;
+  width: 100%;
   max-width: 900px;
 
   /* justify-content: flex-start;
@@ -45,37 +45,38 @@ header {
   background: lightgray;
   color: slategray;
   text-align: left;
-  text-indent: 2rem;
+  text-indent: 1rem;
   /* border-radius: 4em; */
   font-size: 16px;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
-  padding: 0;
+  padding: 1;
   /* margin-left: 25rem; */
   position: absolute;
-  top: 4rem;
-  left: 10rem;
+  top: 3rem;
+  left: 20rem;
 }
 .speech-bubble > p {
   font-size: 10px;
 }
 .speech-bubble:after {
   content: '';
-  position: relative;
-
-  left: -31%;
+  position: absolute;
+  /* left: -31%; */
   width: 0;
   height: 0;
   border: 20px solid transparent;
   border-top-color: lightgray;
   border-bottom: 0;
   border-left: 0;
-  margin-left: -10px;
-  margin-bottom: -20px;
+  top: 3.5rem;
+  left: 1rem;
+  /* margin-left: -10px;
+  margin-bottom: -20px; */
 }
 .profile-picture {
-  max-height: 256px;
-  margin: 8%;
+  max-height: 185px;
+  margin: 12%;
 }
 
 main {
@@ -97,12 +98,12 @@ main {
   border-radius: 4px;
   color: black;
   margin: 0;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
-.text-header1 {
+.image-header1 {
   background: url(./Images/reactsnipped.png);
   display: flex;
   align-content: flex-start;
@@ -116,7 +117,7 @@ main {
   border-image-repeat: stretch stretch; */
 }
 
-.text-header2 {
+.image-header2 {
   background: url(./Images/codesnipped.png);
   display: flex;
   align-content: flex-start;
@@ -133,11 +134,21 @@ main {
 h1 {
   max-width: auto;
   padding: 1rem;
-}
-h2 {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
   margin: 0;
+}
+
+h1 > p {
+  margin: 0.25rem;
   font-size: 12px;
   max-width: auto;
+  padding: 0 0 0 5px;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 main > img {
@@ -147,11 +158,11 @@ main > img {
 }
 
 #blog-text {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content: flex-end; */
-  margin: 1rem 1rem;
-  padding: 1rem;
+  justify-content: flex-end;
+  /* margin: 1rem 1rem;
+  padding: 1rem; */
 }
 
 #keep-reading {
