@@ -230,8 +230,6 @@ li {
 }
 
 #copyright {
-  /* border-style: dotted;
-  border-color: red;
-  flex-direction: row; */
+  font-size: 8px;
   text-align: center;
 }
