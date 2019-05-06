@@ -7,12 +7,8 @@ html {
   background-color: black;
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
-  /*max-width: 900px;*/
-
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 body {
@@ -21,9 +17,6 @@ body {
   display: flex;
   width: 100%;
   max-width: 900px;
-
-  /* justify-content: flex-start;
-  align-items: center; */
 }
 
 section {
@@ -33,7 +26,6 @@ section {
 
 header {
   background-image: url('./Images/space.png');
-  /* max-width: 900px; */
   max-height: 700px;
   margin: 0;
   justify-content: center;
@@ -45,13 +37,10 @@ header {
   background: lightgray;
   color: slategray;
   text-align: left;
-  /* text-indent: 1rem; */
-  /* border-radius: 4em; */
   font-size: 16px;
   max-width: auto;
   margin: auto;
   padding: 0.5rem;
-  /* margin-left: 25rem; */
   position: absolute;
   top: 5rem;
   left: 20rem;
@@ -60,7 +49,6 @@ header {
 .speech-bubble > h1 {
   max-width: auto;
   padding: 1rem;
-  /* display: flex; */
   align-content: flex-start;
   justify-content: flex-start;
   flex-direction: row;
@@ -69,12 +57,10 @@ header {
 
 .speech-bubble > p {
   font-size: 10px;
-  /* margin: 0 10px; */
 }
 .speech-bubble:after {
   content: '';
   position: absolute;
-  /* left: -31%; */
   width: 0;
   height: 0;
   border: 20px solid transparent;
@@ -83,8 +69,6 @@ header {
   border-left: 0;
   top: 3rem;
   left: 1rem;
-  /* margin-left: -10px;
-  margin-bottom: -20px; */
 }
 .profile-picture {
   max-height: 185px;
@@ -92,7 +76,6 @@ header {
 }
 
 main {
-  /* margin: 1%; */
   padding: 0;
 }
 
@@ -109,7 +92,6 @@ main {
   background-color: whitesmoke;
   border-radius: 4px;
   color: black;
-  /* padding: 0 0 0 1rem; */
   margin: 0.5rem 0 0 0;
   display: flex;
   flex-direction: column;
@@ -124,10 +106,6 @@ main {
   margin: 0;
   padding: 2rem;
   border-radius: 4px 4px 0px 0px;
-  /* border-image-slice: 138 27 138 27;
-  border-image-width: 20px 20px 20px 20px;
-  border-image-outset: 0px 0px 0px 0px;
-  border-image-repeat: stretch stretch; */
 }
 
 .image-header2 {
@@ -138,10 +116,6 @@ main {
   margin: 0;
   padding: 2rem;
   border-radius: 4px 4px 0px 0px;
-  /* border-image-slice: 138 27 138 27;
-  border-image-width: 20px 20px 20px 20px;
-  border-image-outset: 0px 0px 0px 0px;
-  border-image-repeat: stretch stretch; */
 }
 
 h2 {
@@ -155,8 +129,6 @@ h2 {
 }
 
 #lorem {
-  /* text-align: left;
-  text-indent: 1rem; */
   padding: 0 1rem;
   margin: 0;
 }
@@ -174,25 +146,18 @@ h2 > p {
 main > img {
   margin: 0 1%;
   padding: 0;
-  /* object-fit: contain; */
 }
 
 #blog-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  /* margin: 1rem 1rem;
-  padding: 1rem; */
   text-align: left;
   text-indent: 1rem;
 }
 
 #keep-reading {
-  /* align-items: flex-end; */
-  /* align-self: flex-end; */
   text-align: center;
-  /* max-width: 125px;
-  max-height: 100px; */
   background-color: #517bf7;
   color: white;
   position: absolute;
@@ -201,10 +166,8 @@ main > img {
   margin: 0;
   right: 1rem;
   bottom: -1rem;
-  /* margin: -14px; */
 }
 
-/* Everything below here is fine ignore it */
 li {
   list-style: none;
 }
